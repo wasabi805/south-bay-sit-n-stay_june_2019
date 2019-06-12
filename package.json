@@ -7,9 +7,10 @@
     "node": "10.15.0"
   },
   "scripts": {
-    "server": "node server.js",
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "client": "webpack-dev-server --mode development --open",
+    "server": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Tim Ocampo",
   "license": "ISC",
