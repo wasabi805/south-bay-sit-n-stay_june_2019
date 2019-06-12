@@ -1,5 +1,7 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
+
 
 app.get("/", (req, res) => {
   res.send("Hello, this is the 1st, server route");
